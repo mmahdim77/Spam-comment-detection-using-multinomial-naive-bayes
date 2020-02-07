@@ -5,14 +5,23 @@ Program for detecting spam comments and verify not spam comments from a bunch of
 
 In this project we have a dataset of supervised comments that specified wich comment is spam or not.
 
-we want to learn from this dataset and determine if a new comment we recive is spam or not, using Machine Learning.
+we want to learn from this dataset and determine if a new comment we recive is spam or not using Machine Learning.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+In this project we use pandas (for dataframes, defaultdict(for dictionary) and PersianStemmer (for stemming persian text) libraries.
+first install these libraries.
+for installing these libraries using pip type these instructions in python shell:
 
 ```
-Give examples
+pip install pandas
+```
+
+```
+pip install defaultdict
+```
+```
+pip install PersianStemmer
 ```
 
 ### Installing
