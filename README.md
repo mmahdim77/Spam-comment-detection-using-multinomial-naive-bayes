@@ -25,36 +25,21 @@ pip install defaultdict
 pip install PersianStemmer
 ```
 ## problem describtion
-We have a train dataset in bin/train.csv.
+We have a train dataset of Digikala.com comments in bin/train.csv with 160,000 supervised enteries
 
 ![train_dataframe](http://s7.picofile.com/file/8387450776/Train_dataframe.png)
 
-## Built With
+Each comment entry consists of id, title, comment, rate and verification status.
+We whant to detect spam comments by training on train dataset using machin learning.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+we will use "Multinuminal Naive Bayes" algorithm for solving this problem.
 
-## Contributing
+And we have test dataset of comments which doesn't have verification status column; We should implement it!
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+![test_dataframe](http://s7.picofile.com/file/8387450776/test_dataframe.png)
 
-## Versioning
+it has 20000 comments
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+## Multinuminal naive bayes
+* [Worked_Example](https://www.youtube.com/watch?v=OWGVQfuvNMk) - very good example of how this algorithm works and how implements
 
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
