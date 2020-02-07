@@ -36,7 +36,7 @@ we will use "Multinuminal Naive Bayes" algorithm for solving this problem.
 
 And we have test dataset of comments which doesn't have verification status column; We should implement it!
 
-![test_dataframe](http://s7.picofile.com/file/8387450776/test_dataframe.png)
+![test_dataframe](http://s7.picofile.com/file/8387453742/test_dataframe.png)
 
 it has 20000 comments
 
