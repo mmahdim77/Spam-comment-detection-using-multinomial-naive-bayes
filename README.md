@@ -3,7 +3,8 @@ Program for detecting spam comments and verify not spam comments from a bunch of
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+In this project we have a dataset of supervised comments that specified wich comment is spam or not.
+we want to learn from this dataset and determine if a new comment is spam or not using Machine Learning
 
 ### Prerequisites
 
