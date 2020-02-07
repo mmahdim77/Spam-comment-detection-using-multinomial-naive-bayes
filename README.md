@@ -30,7 +30,7 @@ We have a train dataset of Digikala.com comments in bin/train.csv with 160,000 s
 ![train_dataframe](http://s7.picofile.com/file/8387450776/Train_dataframe.png)
 
 Each comment entry consists of id, title, comment, rate and verification status.
-We whant to detect spam comments by training on train dataset using machin learning.
+We should detect spam comments by training on train dataset using machin learning solutions.
 
 we will use "Multinuminal Naive Bayes" algorithm for solving this problem.
 
