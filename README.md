@@ -25,7 +25,9 @@ pip install defaultdict
 pip install PersianStemmer
 ```
 ## problem describtion
-in this
+We have a train dataset in bin/train.csv.
+
+![train_dataframe](http://s7.picofile.com/file/8387450776/Train_dataframe.png)
 
 ## Built With
 
