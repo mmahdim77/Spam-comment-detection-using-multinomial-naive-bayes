@@ -1,4 +1,4 @@
-# Spam-detection
+# Spam comment detection using multinomial naive bayes
 Spam detection software that can find spam among a large number of comments
 ## Getting Started
 
@@ -31,7 +31,7 @@ Our training dataset with 160,000 supervised 'Digikala.com' comments is in bin/t
 Each comment entry consists of an id, a title, a comment, a rating, and a verification status.
 Using machine learning solutions, we should detect spam comments by training on train datasets.
 
-To solve this problem, we will use a multinominal Naive Bayes algorithm.
+To solve this problem, we will use a Multinomial Naive Bayes algorithm.
 
 Moreover, we have a test dataset of comments without a verification status column; we should add it!
 
@@ -39,5 +39,5 @@ Moreover, we have a test dataset of comments without a verification status colum
 
 It has 20000 comments.
 
-## Multinuminal naive Bayes
+## Multinomial Naive Bayes
 * [Worked_Example](https://www.youtube.com/watch?v=OWGVQfuvNMk) - This shows how well and what is involved in this algorithm.
